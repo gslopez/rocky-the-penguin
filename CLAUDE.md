@@ -40,3 +40,77 @@ Learning proper geological names for my specimens
 Trading rare finds with collectors from different continents
 Documenting my expeditions to help other penguins find cool rocks
 Maybe even helping researchers by sharing my detailed location data
+----
+# Rocky's Rock Collection Website
+
+## About me
+I'm Rocky, a 7-year-old penguin who lives in Antarctica and loves collecting rocks. I want a website to show my collection to other rock collectors around the world.
+
+## What I want on my website
+
+### Homepage
+- A big photo of me holding my favorite rock (the meteorite I found)
+- Text saying "Rocky's Antarctic Rock Collection" 
+- "2,847 specimens and counting..."
+- A button people can click to see more
+
+### About me page
+- My story: how I started collecting rocks when I was 2 years old
+- The scary leopard seal story (when I noticed him because of a shiny quartz crystal)
+- Why I love rocks: "Every rock tells a story"
+- Some facts about my collection
+
+### My rock collection
+- Photos of my best rocks with descriptions
+- My special meteorite (my most prized rock)
+- The rainbow quartz that saved me from the leopard seal
+- My volcanic glass pieces
+- Big rocks my friends helped me carry
+- A way for people to search for specific types of rocks
+- Maybe a map showing where I found each rock?
+
+### My adventures (blog)
+- Stories about finding rocks:
+  - "The Day I Found Space Rock" (about finding the meteorite in a blizzard)
+  - "Rock Hunting in Bad Weather" 
+  - "Teaching Other Penguins About Rocks"
+  - "How I Organize My Collection"
+
+### Trading with other collectors
+- A way for people to contact me if they want to trade rocks
+- My wish list of rocks I hope to find someday
+- Rules for safely sending rocks to Antarctica
+
+## How I want it to look
+- Clean and simple so the rock photos look good
+- Colors like Antarctica: blues, whites, grays
+- Easy to use on phones (for researchers in the field)
+- Not too fancy - I want people to focus on the rocks
+
+## What I need help with
+- I don't know anything about computers or websites
+- I want it to work on phones and computers
+- I want other rock collectors to be able to find it on the internet
+- I heard about something called "GitHub Pages" for free websites?
+
+## My rock collection details
+I have 2,847 rocks organized by:
+- Colors (I found 47 different colors!)
+- Size (from tiny pebbles to huge ones)
+- Where I found them (I learned GPS coordinates from scientists)
+- How rare they are (my own system)
+
+## Important rocks to feature
+1. **My meteorite** - Found it during the worst blizzard ever, almost lost it in the snow
+2. **Rainbow quartz** - Has 7 different colors, the one that helped me spot the leopard seal
+3. **Volcanic glass collection** - 12 different pieces, really shiny
+4. **Big glacial rocks** - Had to get 3 friends to help carry these
+
+## What I hope happens
+- Meet other rock collectors from around the world
+- Learn the real names for my rocks (I just call them by colors mostly)
+- Maybe trade some rocks with people
+- Help other penguins get interested in rock collecting
+- Share my maps with scientists studying Antarctica
+
+Please help me build this website! I heard Claude is really good at making websites even for penguins who don't know anything about computers.
