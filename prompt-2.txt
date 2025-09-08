@@ -1,0 +1,3 @@
+I notice the images are empty! Since I am a penguin, can you use public images of rocks, penguins, meteorites, etc... instead of image files?
+
+Some URLS are not working, check if they're valid. Also the main image is not a penguin!
