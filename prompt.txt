@@ -1,0 +1,1 @@
+In CLAUDE.md there is a description of the website. I want you to implement the website. Please first plan and the build it.
