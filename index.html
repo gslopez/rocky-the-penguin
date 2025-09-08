@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocky's Antarctic Rock Collection</title>
+    <meta name="description" content="Rocky the Penguin's amazing rock collection from Antarctica - 2,847 specimens and counting!">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">🐧 Rocky's Rocks</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#collection" class="nav-link">Collection</a></li>
+                <li><a href="#adventures" class="nav-link">Adventures</a></li>
+                <li><a href="#trading" class="nav-link">Trading</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="images/rocky-with-meteorite.jpg" alt="Rocky the Penguin holding his prized meteorite" class="rocky-photo">
+            </div>
+            <div class="hero-text">
+                <h1>Rocky's Antarctic Rock Collection</h1>
+                <p class="specimen-count">2,847 specimens and counting...</p>
+                <p class="hero-description">Welcome to my world of Antarctic rocks! I'm Rocky, a 7-year-old Adelie penguin who loves finding beautiful stones in the icy wilderness.</p>
+                <button class="cta-button" onclick="scrollToSection('collection')">See My Collection</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Rocky</h2>
+            <div class="about-content">
+                <div class="about-story">
+                    <h3>My Story</h3>
+                    <p>I started collecting rocks when I was just 2 years old. While other penguins played typical games, I was fascinated by the colorful stones scattered around our nesting area at Cape Adare, Antarctica.</p>
+                    
+                    <h3>The Leopard Seal Story</h3>
+                    <p>One day while examining a beautiful rainbow quartz crystal, I noticed a leopard seal's shadow reflected on its surface. That shiny crystal saved my life by helping me spot the danger! Now I always say that rocks aren't just beautiful - they're protective friends.</p>
+                    
+                    <h3>Why I Love Rocks</h3>
+                    <p class="quote">"Every rock tells a story"</p>
+                    <p>Each specimen in my collection has a tale - from the blizzard where I found my meteorite to the sunny day when three friends helped me carry a massive glacial boulder back to my den.</p>
+                </div>
+                
+                <div class="about-facts">
+                    <h3>Collection Facts</h3>
+                    <ul>
+                        <li>🏔️ <strong>Location:</strong> Cape Adare, Antarctica</li>
+                        <li>📊 <strong>Total Specimens:</strong> 2,847 rocks</li>
+                        <li>🌈 <strong>Colors Found:</strong> 47 different variations</li>
+                        <li>🗺️ <strong>Organization:</strong> GPS coordinates, color, size, rarity</li>
+                        <li>⭐ <strong>Prized Possession:</strong> Antarctic meteorite</li>
+                        <li>🔬 <strong>Mineral Types:</strong> 15 different varieties</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="collection" class="collection-section">
+        <div class="container">
+            <h2>My Rock Collection</h2>
+            <div class="search-bar">
+                <input type="text" id="rock-search" placeholder="Search for rocks by type, color, or location...">
+                <button onclick="searchRocks()">Search</button>
+            </div>
+            
+            <div class="featured-rocks">
+                <h3>Featured Specimens</h3>
+                <div class="rock-grid">
+                    <div class="rock-card" data-type="meteorite" data-color="dark-gray" data-location="cape-adare">
+                        <img src="images/meteorite.jpg" alt="Rocky's prized meteorite" class="rock-image">
+                        <div class="rock-info">
+                            <h4>Antarctic Meteorite</h4>
+                            <p class="rock-description">My most prized possession! Found during the worst blizzard ever - almost lost it in the snow. It's from outer space!</p>
+                            <div class="rock-details">
+                                <span class="rock-color">Color: Dark gray with metallic flecks</span>
+                                <span class="rock-location">Found: Cape Adare during blizzard</span>
+                                <span class="rock-rarity">Rarity: Ultra Rare ⭐⭐⭐⭐⭐</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rock-card" data-type="quartz" data-color="rainbow" data-location="coastal-area">
+                        <img src="images/rainbow-quartz.jpg" alt="Rainbow quartz crystal" class="rock-image">
+                        <div class="rock-info">
+                            <h4>Rainbow Quartz</h4>
+                            <p class="rock-description">Has 7 different colors and saved my life by helping me spot a leopard seal's reflection. My protective crystal friend!</p>
+                            <div class="rock-details">
+                                <span class="rock-color">Color: Rainbow (7 colors!)</span>
+                                <span class="rock-location">Found: Coastal hunting area</span>
+                                <span class="rock-rarity">Rarity: Very Rare ⭐⭐⭐⭐</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rock-card" data-type="volcanic-glass" data-color="black" data-location="volcanic-region">
+                        <img src="images/volcanic-glass.jpg" alt="Volcanic glass collection" class="rock-image">
+                        <div class="rock-info">
+                            <h4>Volcanic Glass Collection</h4>
+                            <p class="rock-description">12 different pieces of really shiny volcanic glass. They reflect the Antarctic sun beautifully!</p>
+                            <div class="rock-details">
+                                <span class="rock-color">Color: Black and obsidian</span>
+                                <span class="rock-location">Found: Ancient volcanic region</span>
+                                <span class="rock-rarity">Rarity: Rare ⭐⭐⭐</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rock-card" data-type="glacial" data-color="blue-gray" data-location="glacier-base">
+                        <img src="images/glacial-rocks.jpg" alt="Large glacial rocks" class="rock-image">
+                        <div class="rock-info">
+                            <h4>Big Glacial Rocks</h4>
+                            <p class="rock-description">These massive beauties required three penguin friends to help me carry them home. Teamwork makes the dream work!</p>
+                            <div class="rock-details">
+                                <span class="rock-color">Color: Blue-gray with ice crystals</span>
+                                <span class="rock-location">Found: Glacier base</span>
+                                <span class="rock-rarity">Rarity: Uncommon ⭐⭐</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="adventures" class="adventures-section">
+        <div class="container">
+            <h2>My Rock Hunting Adventures</h2>
+            <div class="blog-posts">
+                <article class="blog-post">
+                    <h3>The Day I Found Space Rock</h3>
+                    <p class="post-meta">During the worst blizzard ever</p>
+                    <p>It was the kind of blizzard that makes even the bravest penguins huddle together. But something shiny caught my eye in the swirling snow. I waddled through the storm, following that glimmer, and discovered my precious meteorite! I almost lost it three times in the wind, but I held on tight. That's when I learned that the best treasures sometimes come during the scariest adventures.</p>
+                </article>
+
+                <article class="blog-post">
+                    <h3>Rock Hunting in Bad Weather</h3>
+                    <p class="post-meta">Lessons from a determined penguin</p>
+                    <p>Most penguins think I'm crazy for going rock hunting when the weather turns nasty. But I've discovered that storms often uncover new specimens! The wind and ice shift things around, revealing hidden treasures. My best advice: always bring a buddy, mark your path with fish bones, and never venture out during leopard seal season.</p>
+                </article>
+
+                <article class="blog-post">
+                    <h3>Teaching Other Penguins About Rocks</h3>
+                    <p class="post-meta">Sharing the joy of geology</p>
+                    <p>Last week, I organized the first-ever "Penguin Rock Appreciation Day" in our colony. I showed my friends how to identify different types of stones and shared the stories behind each specimen. Three young penguins even started their own collections! There's nothing better than seeing the wonder in someone's eyes when they really look at a rock for the first time.</p>
+                </article>
+
+                <article class="blog-post">
+                    <h3>How I Organize My Collection</h3>
+                    <p class="post-meta">A methodical approach to 2,847 specimens</p>
+                    <p>With nearly 3,000 rocks, organization is key! I use a system I learned from the human researchers: GPS coordinates, color classification, size categories, and my own rarity scale. Each rock gets a special spot in my den, arranged by color families. The meteorite gets the place of honor right by my sleeping area - it's like having a piece of space as my nightlight!</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="trading" class="trading-section">
+        <div class="container">
+            <h2>Trading with Fellow Collectors</h2>
+            <div class="trading-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>I'd love to connect with rock collectors from around the world! If you're interested in trading specimens or just want to share stories about your finds, here's how to reach me:</p>
+                    <ul>
+                        <li>📧 Email: rocky.rocks@antarctica.penguin</li>
+                        <li>📍 Location: Cape Adare, Antarctica</li>
+                        <li>🐧 Colony: The one with 12,000 penguins (look for the rock piles!)</li>
+                    </ul>
+                </div>
+
+                <div class="wishlist">
+                    <h3>My Wish List</h3>
+                    <p>Rocks I hope to find or trade for someday:</p>
+                    <ul>
+                        <li>More meteorites (especially colorful ones)</li>
+                        <li>Gemstones from tropical places (I've never seen warmth!)</li>
+                        <li>Fossils of ancient sea creatures</li>
+                        <li>Crystals that grow in caves</li>
+                        <li>Rocks from other continents</li>
+                        <li>Anything that glows (safely!)</li>
+                    </ul>
+                </div>
+
+                <div class="trading-rules">
+                    <h3>Safe Trading to Antarctica</h3>
+                    <p>Important guidelines for sending rocks to a penguin:</p>
+                    <ul>
+                        <li>Use waterproof packaging (everything here is wet!)</li>
+                        <li>Include detailed descriptions - I want to know each rock's story</li>
+                        <li>Send during Antarctic summer (October - February)</li>
+                        <li>Contact the research station first - they help with deliveries</li>
+                        <li>No tropical insects please - they don't survive here anyway</li>
+                        <li>Small specimens travel better than large ones</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Rocky the Penguin. All rocks remain property of Antarctica (and me!)</p>
+            <p>Built with love from Cape Adare, Antarctica 🐧</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
