@@ -1,12 +1,17 @@
 ---
-title: 'Overcome enlightenment'
-description: 'Foto de <a class="underline"  href="https://unsplash.com/es/fotos/flores-rojas-azules-y-blancas-5TK1F5VfdIk">Europeana </a> en <a class="underline" href="https://unsplash.com/es/fotos/una-pintura-en-el-techo-de-un-edificio-1rBg5YSi00c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-      '
+title: 'My First Antarctic Meteorite'
+description: 'The incredible story of finding my prized meteorite during a blizzard at Cape Adare'
 icon: '3'
-pubDate: 'Jul 08 2022'
+pubDate: 'Mar 15 2024'
 heroImage: "/src/assets/euro.jpg"
 
 ---
-Overcome enlightenment sea will victorious mountains victorious will philosophy society. Justice hope victorious horror decieve overcome victorious insofar battle society marvelous holiest. Superiority suicide insofar society depths inexpedient. Joy madness aversion eternal-return oneself zarathustra ascetic deceptions. Ultimate play society suicide battle value philosophy snare. Overcome ubermensch moral merciful snare will eternal-return pious. Mountains self chaos christianity free value.
+It was during one of the worst blizzards I'd experienced in my 7 years of life. Most of the colony had huddled together for warmth, but I couldn't resist the call of adventure. The wind was howling so loudly that I could barely hear my own footsteps on the ice.
 
-Faithful faithful pinnacle battle inexpedient against insofar decrepit transvaluation society. Decrepit christian moral dead faith love. Philosophy moral will ubermensch reason eternal-return.
+That's when I saw it - a dark, unusual shape partially buried in the snow near the rocky outcrop where I'd found some of my best specimens. Something about its surface was different from any rock I'd seen before. It had this metallic sheen and tiny crystals that caught what little light penetrated the storm.
+
+I carefully dug it out with my flippers, my heart racing with excitement. The rock felt heavier than it looked, and when I brushed off the snow, I could see it had this incredible fusion crust - though I didn't know that's what it was called at the time.
+
+Later, when the human researchers visited our colony, Dr. Martinez confirmed my suspicions: it was indeed a meteorite! A piece of space rock that had traveled millions of miles to land right here in Antarctica. She explained that the metallic crystals I'd noticed were likely iron-nickel inclusions.
+
+This meteorite has become the crown jewel of my collection, but more importantly, it taught me that even in the most challenging conditions, amazing discoveries await those brave enough to venture out and look.
