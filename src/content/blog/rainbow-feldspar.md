@@ -1,9 +1,9 @@
 ---
 title: 'The Rainbow Feldspar Adventure'
 description: 'A weekend expedition that led to discovering my most colorful specimen with help from colony friends'
-icon: '2'
+icon: 'rainbow'
 pubDate: 'Feb 28 2024'
-heroImage: "/src/assets/fran.jpg"
+heroImage: "/src/assets/rainbow.jpg"
 
 ---
 Some of my best discoveries happen during our weekend expeditions when I have more time to explore the remote areas around Cape Adare. This particular weekend, I had convinced three of my friends - Pip, Splash, and Waddles - to join me on what I promised would be "just a short rock hunt."

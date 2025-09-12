@@ -1,6 +1,7 @@
 ---
 import { Icon } from "astro-icon/components";
 import { Image } from "astro:assets";
+import type { ImageMetadata } from 'astro';
 const images = import.meta.glob<{ default: ImageMetadata }>(
   "/src/assets/*.{jpeg,jpg,png,gif}"
 );
@@ -16,45 +17,43 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
     <a
       rel="noopener noreferrer"
       href="#collection"
-      class="bg-pgreen px-5 py-3 border-1 border-black rounded-lg shadow-card hover:shadow-hover transition"
+      class="bg-glacial px-5 py-3 border-1 border-deepocean rounded-lg shadow-card hover:shadow-hover transition"
     >
       View my collection
     </a>
   </div>
   <div
-    class="md:w-1/2 object-contain flex items-center justify-center p-10 group"
+    class="md:w-1/2 object-contain flex flex-col items-center justify-center p-10 group"
   >
     <a
       rel="noopener noreferrer"
       href="#about"
     >
       <div
-        class="bg-pblue border-3 border-black rounded-2xl h-52 w-60 shadow-card group-hover:shadow-hover flex transition relative"
+        class="bg-iceblue border-3 border-deepocean rounded-2xl shadow-card group-hover:shadow-hover flex transition relative"
+        style="width: 234px; height: 320px;"
       >
         <div
-          class="absolute -top-8 -left-12 text-5xl bg-ppink px-5 py-1 z-10 shadow-card group-hover:shadow-hover transition rounded-t-2xl border-3 border-black rounded-bl-2xl rounded-br-sm"
+          class="absolute -top-8 -left-12 bg-amber-100 p-2 z-10 shadow-card group-hover:shadow-hover transition rounded-full border-3 border-deepocean"
         >
-          🪨
+          <Image src={images["/src/assets/rock.png"]()} alt="Rock" class="w-12 h-12" />
         </div>
         <div
-          class="absolute top-16 -right-16 text-5xl bg-pyellow p-2 z-10 shadow-card group-hover:shadow-hover transition rounded-full border-3 border-black"
+          class="absolute top-16 -right-16 bg-orange-100 p-2 z-10 shadow-card group-hover:shadow-hover transition rounded-full border-3 border-deepocean"
         >
-          🐧
+          <Image src={images["/src/assets/penguin.png"]()} alt="Penguin" class="w-12 h-12" />
         </div>
-        <div
-          class="absolute text-nowrap flex items-center gap-4 -bottom-12 right-0 pr-4 bg-pgreen pl-1 z-10 shadow-card1 group-hover:shadow-card transition rounded-full border-3 border-black"
-        >
-          ❄️
-          <p>Rocky the Penguin</p>
-        </div>
-        <div class="h-80 w-60 overflow-hidden relative -mt-30 rounded-2xl">
+        <div class="overflow-hidden absolute inset-0 rounded-2xl">
           <Image
-            class="object-bottom absolute bottom-0 group-hover:scale-105 transition"
-            src={images["/src/assets/hero.png"]()}
+            class="object-cover object-center absolute inset-0 w-full h-full group-hover:scale-105 transition"
+            src={images["/src/assets/hero.jpg"]()}
             alt="Rocky the Penguin"
           />
         </div>
       </div></a
     >
+    <div class="text-xs text-gray-500 text-center mt-4">
+      Photo by <a href="https://www.pexels.com/photo/adelie-penguin-on-rocky-antarctic-shoreline-31308007/" target="_blank" rel="noopener noreferrer" class="hover:text-deepocean">ArcticDesire.com Polarreisen</a>
+    </div>
   </div>
 </section>

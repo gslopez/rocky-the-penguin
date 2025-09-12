@@ -1,9 +1,9 @@
 ---
 title: 'My First Antarctic Meteorite'
 description: 'The incredible story of finding my prized meteorite during a blizzard at Cape Adare'
-icon: '3'
+icon: 'comet'
 pubDate: 'Mar 15 2024'
-heroImage: "/src/assets/euro.jpg"
+heroImage: "/src/assets/meteorite.jpg"
 
 ---
 It was during one of the worst blizzards I'd experienced in my 7 years of life. Most of the colony had huddled together for warmth, but I couldn't resist the call of adventure. The wind was howling so loudly that I could barely hear my own footsteps on the ice.

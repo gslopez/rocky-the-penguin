@@ -11,9 +11,9 @@ interface Props extends HTMLAttributes<'a'> {
 }
 
 const types: Record<Type, string> = {
-  primary: "hover:shadow-pblueHover",
-  secondary: "hover:shadow-pgreenHover",
-  tertiary: "hover:shadow-ppinkHover",
+  primary: "hover:shadow-icebluehover",
+  secondary: "hover:shadow-glacialhover",
+  tertiary: "hover:shadow-penguinhover",
 };
 
 const getType = (style: Type) => {
@@ -27,7 +27,7 @@ const isActive = href === pathname || href === '/' + (subpath?.[0] || '');
 
 <a
   href={href}
-  class:list={[className, `rounded-md border-black inline-block px-5 py-2 hover:border-1 ${getType(style)} transition ease-in-out`, { active: isActive }]}
+  class:list={[className, `rounded-md border-deepocean inline-block px-5 py-2 hover:border-1 ${getType(style)} transition ease-in-out`, { active: isActive }]}
   {...props}
 >
   {text}

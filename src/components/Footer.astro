@@ -1,24 +1,49 @@
 ---
 const today = new Date();
 import { Icon } from "astro-icon/components";
+import { Image } from "astro:assets";
+import type { ImageMetadata } from 'astro';
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/assets/*.{jpeg,jpg,png,gif}"
+);
 ---
 
 <footer
   class="flex flex-col items-center container mx-auto p-10 text-center gap-10 pb-40"
 >
   &copy; {today.getFullYear()} Rocky the Penguin. All rights reserved.
-  <div class="flex items-center gap-6 text-5xl">
-    <div class="py-1 px-3 rounded-md border-1 border-black bg-ppink shadow-card">
-      🪨
-    </div>
-    <div class="border-1 p-1 border-black rounded-full bg-pblue shadow-card">
-      🐧
-    </div>
-    <div class="border-1 p-1 border-black rounded-full bg-pgreen shadow-card">
-      ❄️
-    </div>
+  <div class="flex items-center gap-6">
+    <a href="https://www.flaticon.com/free-icons/asteroid" title="Asteroid icons" target="_blank" rel="noopener noreferrer" class="p-2 rounded-full border-1 border-deepocean bg-amber-100 shadow-card hover:shadow-hover transition">
+      <Image src={images["/src/assets/rock.png"]()} alt="Rock" class="w-12 h-12" />
+    </a>
+    <a href="https://www.flaticon.com/free-icons/antartic" title="Antarctic icons" target="_blank" rel="noopener noreferrer" class="border-1 p-2 border-deepocean rounded-full bg-orange-100 shadow-card hover:shadow-hover transition">
+      <Image src={images["/src/assets/penguin.png"]()} alt="Penguin" class="w-12 h-12" />
+    </a>
+    <a href="https://www.flaticon.com/free-icons/snow" title="Snow icons" target="_blank" rel="noopener noreferrer" class="border-1 p-2 border-deepocean rounded-full bg-blue-100 shadow-card hover:shadow-hover transition">
+      <Image src={images["/src/assets/snowflake.png"]()} alt="Snowflake" class="w-12 h-12" />
+    </a>
+    <a href="https://www.flaticon.com/free-icons/rainbow" title="Rainbow icons" target="_blank" rel="noopener noreferrer" class="border-1 p-2 border-deepocean rounded-full bg-green-100 shadow-card hover:shadow-hover transition">
+      <Image src={images["/src/assets/rainbow.png"]()} alt="Rainbow" class="w-12 h-12" />
+    </a>
+    <a href="https://www.flaticon.com/free-icons/seal" title="Seal icons" target="_blank" rel="noopener noreferrer" class="border-1 p-2 border-deepocean rounded-full bg-purple-100 shadow-card hover:shadow-hover transition">
+      <Image src={images["/src/assets/seal.png"]()} alt="Seal" class="w-12 h-12" />
+    </a>
+    <a href="https://www.flaticon.com/free-icons/comet" title="Comet icons" target="_blank" rel="noopener noreferrer" class="border-1 p-2 border-deepocean rounded-full bg-yellow-100 shadow-card hover:shadow-hover transition">
+      <Image src={images["/src/assets/comet.png"]()} alt="Comet" class="w-12 h-12" />
+    </a>
   </div>
   <p class="text-lg font-medium text-gray-700">
     Waddling through Antarctica, one rock at a time! 🧭
   </p>
+  <div class="text-xs text-gray-500 flex flex-col gap-1 max-w-2xl text-center">
+    <p>Icons courtesy of Flaticon:</p>
+    <div class="flex flex-col gap-1">
+      <a href="https://www.flaticon.com/free-icons/asteroid" title="Asteroid icons" class="hover:text-deepocean">Asteroid icons created by mnauliady - Flaticon</a>
+      <a href="https://www.flaticon.com/free-icons/snow" title="snow icons" class="hover:text-deepocean">Snow icons created by Freepik - Flaticon</a>
+      <a href="https://www.flaticon.com/free-icons/antartic" title="antartic icons" class="hover:text-deepocean">Antarctic icons created by Iconjam - Flaticon</a>
+      <a href="https://www.flaticon.com/free-icons/rainbow" title="rainbow icons" class="hover:text-deepocean">Rainbow icons created by Freepik - Flaticon</a>
+      <a href="https://www.flaticon.com/free-icons/seal" title="seal icons" class="hover:text-deepocean">Seal icons created by Vitaly Gorbachev - Flaticon</a>
+      <a href="https://www.flaticon.com/free-icons/comet" title="comet icons" class="hover:text-deepocean">Comet icons created by Flat Icons - Flaticon</a>
+    </div>
+  </div>
 </footer>

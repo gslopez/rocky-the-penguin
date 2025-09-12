@@ -84,5 +84,6 @@
 }
 body {
     font-family: 'Alexandria', sans-serif;
-    background-color: #f2f2f2;
+    background: linear-gradient(180deg, #E6F8FF 0%, #F0F9FF 50%, #FEFEFE 100%);
+    min-height: 100vh;
 }

@@ -1,9 +1,9 @@
 ---
 title: 'The Shimmering Quartz Discovery'
 description: 'How I found my first piece of clear quartz that saved me from a leopard seal encounter'
-icon: '1'
+icon: 'seal'
 pubDate: 'Jan 20 2024'
-heroImage: "/src/assets/hero.png"
+heroImage: "/src/assets/about.jpg"
 
 ---
 I still remember the day I found my first piece of clear quartz - it was both terrifying and magical at the same time. I was only 5 years old, still learning the boundaries of safe exploration around our colony at Cape Adare.

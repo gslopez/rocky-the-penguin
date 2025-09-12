@@ -5,12 +5,17 @@ const posts = (await getCollection("blog")).sort(
 );
 import FormattedDate from "@/components/FormattedDate.astro";
 import { Icon } from "astro-icon/components";
+import { Image } from "astro:assets";
+import type { ImageMetadata } from 'astro';
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/assets/*.{jpeg,jpg,png,gif}"
+);
 
 const bgClasses = [
-  "bg-pgreen rounded-full",
-  "bg-pblue rounded-2xl",
-  "bg-ppink ",
-  "bg-pyellow rounded-md",
+  "bg-glacial rounded-full",
+  "bg-iceblue rounded-2xl",
+  "bg-amber-100",
+  "bg-orange-100 rounded-md",
 ];
 
 const getRandomClass = () => {
@@ -26,12 +31,15 @@ const getRandomClass = () => {
       posts.map((post) => {
         const randomClass = getRandomClass();
         return (
-          <li class="w-72 text-left rounded-3xl border-1 border-black shadow-card group hover:shadow-hover transition  px-4 py-6 flex flex-col gap-6">
+          <li class="w-72 text-left rounded-3xl border-1 border-deepocean shadow-card group hover:shadow-hover transition  px-4 py-6 flex flex-col gap-6">
             <a href={`/blog/${post.id}/`} class="flex flex-col gap-4">
               <div
-                class={`${randomClass} text-4xl p-2 self-start border-1 border-black shadow-card1 group-hover:shadow-card transition`}
+                class={`${randomClass} p-2 self-start border-1 border-deepocean shadow-card1 group-hover:shadow-card transition rounded-full`}
               >
-                <Icon name={post.data.icon} />
+                {post.data.icon === 'seal' && <Image src={images["/src/assets/seal.png"]()} alt="Seal" class="w-8 h-8" />}
+                {post.data.icon === 'rainbow' && <Image src={images["/src/assets/rainbow.png"]()} alt="Rainbow" class="w-8 h-8" />}
+                {post.data.icon === 'comet' && <Image src={images["/src/assets/comet.png"]()} alt="Comet" class="w-8 h-8" />}
+                {!['seal', 'rainbow', 'comet'].includes(post.data.icon) && <Icon name={post.data.icon} />}
               </div>
               <h4 class="text-xl font-semibold">{post.data.title}</h4>
               <p class="date -mt-4 text-sm font-light">

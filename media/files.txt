@@ -1,0 +1,20 @@
+rock:
+    <a href="https://www.flaticon.com/free-icons/asteroid" title="Asteroid icons">Asteroid icons created by mnauliady - Flaticon</a>
+snowflake:
+    <a href="https://www.flaticon.com/free-icons/snow" title="snow icons">Snow icons created by Freepik - Flaticon</a>
+penguin
+    <a href="https://www.flaticon.com/free-icons/antartic" title="antartic icons">Antartic icons created by Iconjam - Flaticon</a>
+rainbow-icon:
+    <a href="https://www.flaticon.com/free-icons/rainbow" title="rainbow icons">Rainbow icons created by Freepik - Flaticon</a>
+seal:
+    <a href="https://www.flaticon.com/free-icons/seal" title="seal icons">Seal icons created by Vitaly Gorbachev - Flaticon</a>
+comet:
+    <a href="https://www.flaticon.com/free-icons/comet" title="comet icons">Comet icons created by Flat Icons - Flaticon</a>
+hero:
+    Photo by ArcticDesire.com Polarreisen: https://www.pexels.com/photo/adelie-penguin-on-rocky-antarctic-shoreline-31308007/
+about:
+    Photo by Frans van Heerden: https://www.pexels.com/photo/penguins-on-an-iceberg-10837810/
+meteorite
+    Photo by Alberto Calleja : https://www.pexels.com/photo/a-shooting-star-in-the-night-sky-6629838/
+rainbow
+    Photo by Ben Mack: https://www.pexels.com/photo/bright-rainbow-over-rippling-sea-5707731/
