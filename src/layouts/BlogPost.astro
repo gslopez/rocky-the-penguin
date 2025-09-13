@@ -116,7 +116,7 @@ const getRandomClass = () => {
               <p>Written by</p>
               <div class="flex -mt-4 gap-2">
                   <div class="bg-glacial rounded-full w-12 h-12 aspect-square object-contain overflow-hidden ">
-                    <Image src={images["/src/assets/hero.jpg"]()} alt="Rocky" />
+                    <Image style={{ height: "100%" }} src={images["/src/assets/hero.jpg"]()} alt="Rocky" />
                   </div>
                   <div>
                   <h3>Rocky the Penguin</h3>
@@ -124,20 +124,6 @@ const getRandomClass = () => {
                 </div>
               </div>
               <hr/>
-              <div>
-                <p>Contributors:</p>
-                <div class="flex items-center gap-6">
-                  <div class="p-1 rounded-full border-1 border-deepocean bg-amber-100 shadow-card">
-                    <Image src={images["/src/assets/rock.png"]()} alt="Rock" class="w-6 h-6" />
-                  </div>
-                  <div class="border-1 p-1 border-deepocean rounded-full bg-orange-100 shadow-card">
-                    <Image src={images["/src/assets/penguin.png"]()} alt="Penguin" class="w-6 h-6" />
-                  </div>
-                  <div class="border-1 p-1 border-deepocean rounded-full bg-blue-100 shadow-card">
-                    <Image src={images["/src/assets/snowflake.png"]()} alt="Snowflake" class="w-6 h-6" />
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

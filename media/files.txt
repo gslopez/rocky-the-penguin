@@ -18,3 +18,5 @@ meteorite
     Photo by Alberto Calleja : https://www.pexels.com/photo/a-shooting-star-in-the-night-sky-6629838/
 rainbow
     Photo by Ben Mack: https://www.pexels.com/photo/bright-rainbow-over-rippling-sea-5707731/
+template
+    Thanks to Joaquín Sorolla https://astro.build/themes/details/sorollaportfolio/

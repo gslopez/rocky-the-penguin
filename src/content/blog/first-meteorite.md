@@ -1,5 +1,5 @@
 ---
-title: 'My First Antarctic Meteorite'
+title: 'My First Meteorite'
 description: 'The incredible story of finding my prized meteorite during a blizzard at Cape Adare'
 icon: 'comet'
 pubDate: 'Mar 15 2024'

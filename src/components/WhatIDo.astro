@@ -26,27 +26,29 @@ const getRandomClass = () => {
 <section class="flex flex-col text-center gap-4 " >
   <p class="text-pblack">Every stone has a story.</p>
   <h2 class="text-4xl font-bold">My Rock Collection Adventures</h2>
-  <ul class="flex flex-wrap justify-center md:justify-start gap-8 py-20">
+  <ul class="flex flex-wrap justify-center gap-8 py-20">
     {
       posts.map((post) => {
         const randomClass = getRandomClass();
         return (
-          <li class="w-72 text-left rounded-3xl border-1 border-deepocean shadow-card group hover:shadow-hover transition  px-4 py-6 flex flex-col gap-6">
-            <a href={`/blog/${post.id}/`} class="flex flex-col gap-4">
-              <div
-                class={`${randomClass} p-2 self-start border-1 border-deepocean shadow-card1 group-hover:shadow-card transition rounded-full`}
-              >
-                {post.data.icon === 'seal' && <Image src={images["/src/assets/seal.png"]()} alt="Seal" class="w-8 h-8" />}
-                {post.data.icon === 'rainbow' && <Image src={images["/src/assets/rainbow.png"]()} alt="Rainbow" class="w-8 h-8" />}
-                {post.data.icon === 'comet' && <Image src={images["/src/assets/comet.png"]()} alt="Comet" class="w-8 h-8" />}
-                {!['seal', 'rainbow', 'comet'].includes(post.data.icon) && <Icon name={post.data.icon} />}
+          <li class="w-72 text-left rounded-3xl border-1 border-deepocean shadow-card group hover:shadow-hover transition">
+            <a href={`/blog/${post.id}/`} class="px-4 py-6 flex flex-col gap-6 block">
+              <div class="flex flex-col gap-4">
+                <div
+                  class={`${randomClass} p-2 self-start border-1 border-deepocean shadow-card1 group-hover:shadow-card transition rounded-full`}
+                >
+                  {post.data.icon === 'seal' && <Image src={images["/src/assets/seal.png"]()} alt="Seal" class="w-8 h-8" />}
+                  {post.data.icon === 'rainbow' && <Image src={images["/src/assets/rainbow.png"]()} alt="Rainbow" class="w-8 h-8" />}
+                  {post.data.icon === 'comet' && <Image src={images["/src/assets/comet.png"]()} alt="Comet" class="w-8 h-8" />}
+                  {!['seal', 'rainbow', 'comet'].includes(post.data.icon) && <Icon name={post.data.icon} />}
+                </div>
+                <h4 class="text-xl font-semibold">{post.data.title}</h4>
+                <p class="date -mt-4 text-sm font-light">
+                  <FormattedDate date={post.data.pubDate} />
+                </p>
               </div>
-              <h4 class="text-xl font-semibold">{post.data.title}</h4>
-              <p class="date -mt-4 text-sm font-light">
-                <FormattedDate date={post.data.pubDate} />
-              </p>
+              <div set:html={post.data.description} />
             </a>
-            <div set:html={post.data.description} />
           </li>
         );
       })

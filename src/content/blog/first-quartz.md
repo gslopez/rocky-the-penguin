@@ -1,5 +1,5 @@
 ---
-title: 'The Shimmering Quartz Discovery'
+title: 'The Leopard Seal And The Rock'
 description: 'How I found my first piece of clear quartz that saved me from a leopard seal encounter'
 icon: 'seal'
 pubDate: 'Jan 20 2024'

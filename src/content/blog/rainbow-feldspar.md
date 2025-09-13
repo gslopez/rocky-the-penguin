@@ -1,5 +1,5 @@
 ---
-title: 'The Rainbow Feldspar Adventure'
+title: 'The Rainbow Adventure'
 description: 'A weekend expedition that led to discovering my most colorful specimen with help from colony friends'
 icon: 'rainbow'
 pubDate: 'Feb 28 2024'

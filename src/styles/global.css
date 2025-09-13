@@ -86,4 +86,9 @@ body {
     font-family: 'Alexandria', sans-serif;
     background: linear-gradient(180deg, #E6F8FF 0%, #F0F9FF 50%, #FEFEFE 100%);
     min-height: 100vh;
+    overscroll-behavior: none;
+}
+
+html {
+    overscroll-behavior: none;
 }
