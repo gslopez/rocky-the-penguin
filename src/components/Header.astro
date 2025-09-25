@@ -1,6 +1,7 @@
 ---
 import Link from "./HeaderLink.astro";
 import "../styles/hamburgers.css";
+import rockImage from "../assets/rock.png";
 ---
 
 <header>
@@ -8,7 +9,7 @@ import "../styles/hamburgers.css";
     class="flex container mx-auto md:p-10 px-4 py-6 items-center justify-between"
   >
     <a class="flex items-center gap-2" href="/">
-      <img src="/src/assets/rock.png" alt="Rock" class="w-12 h-12 md:w-16 md:h-16" />
+      <img src={rockImage.src} alt="Rock" class="w-12 h-12 md:w-16 md:h-16" />
       <p class="pt-2 md:text-lg font-semibold flex">
         <span class="hidden md:block">Welcome to my collection</span>
       </p>

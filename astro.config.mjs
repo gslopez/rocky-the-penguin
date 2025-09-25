@@ -6,11 +6,8 @@ import tailwind from "@astrojs/tailwind";
 
 import icon from "astro-icon";
 
-import netlify from "@astrojs/netlify";
-
 // https://astro.build/config
 export default defineConfig({
-  output:'server',
+  site: 'https://rocky-the-penguin.pages.dev',
   integrations: [mdx(), sitemap(), tailwind(), icon()],
-  adapter: netlify(),
 });
